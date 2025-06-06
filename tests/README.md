@@ -1,3 +1,4 @@
+# Compiler Tests
 
 To run the tests, make sure that your compiler file is called
 "compiler.scm", and that at the top of that file, you have:
@@ -14,8 +15,7 @@ and invokes gcc on that file as well as the runtime.c file that you
 should have written.
 
 The tests-driver is written for [Petite] Chez Scheme 7.  You can
-obtain a copy of Petite Chez Scheme from:
-  http://www.scheme.com
+obtain a copy of Petite Chez Scheme from: <http://www.scheme.com>
 
 The tests-driver also assumes that you have the GNU C compiler "gcc"
 already setup and added to your pathname.  How you do this depends
@@ -24,10 +24,11 @@ to use, you can edit the tests-driver yourself (look for the
 definition of the build procedure).
 
 If all is well, then invoking petite on your compiler and typing
-(test-all) should run all the tests as in the following sample 
+(test-all) should run all the tests as in the following sample
 transcript.
 
-$ petite compiler.scm 
+```
+$ petite compiler.scm
 Petite Chez Scheme Version 7.0a
 Copyright (c) 1985-2005 Cadence Research Systems
 
@@ -53,7 +54,7 @@ Copyright (c) 1985-2005 Cadence Research Systems
   test 137:#\rubout ... ok
   passed all 138 tests
 >
-
+```
 
 Enjoy.
 
