@@ -1,4 +1,4 @@
-# my-lisp.scm
+# inc.scm
 
 Learning how to write compiler
 from Abdulaziz Ghuloum's
